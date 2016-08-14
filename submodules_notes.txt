@@ -1,0 +1,1004 @@
+   15  ls
+   16  cd minha_conta/
+   17  ls
+   18  cd ..
+   19  mkdir orama
+   20  mv minha_conta/ orama/
+   21  ls
+   22  cd orama/
+   23  cd minha_conta/
+   24  ls
+   25  pip
+   26  sudo apt-get install python-pip
+   27  ls
+   28  virtualenv
+   29  apt-get install veritualenv
+   30  sudo apt-get install veritualenv
+   31  git clone git@git.orama.com.br:orama_dev/minha_conta.git
+   32  mysql
+   33  mysql -u root
+   34  mysql -u root -proot
+   35  exit
+   36  lsof
+   37  exit
+   38  mysql -u root -proot
+   39  exit
+   40  cd Downloads/
+   41  ls
+   42  dpkg -i google-talkplugin_current_amd64.deb 
+   43  sudo dpkg -i google-talkplugin_current_amd64.deb 
+   44  dpkg --help
+   45  dpkg --lt
+   46  dpkg --get-selections
+   47  dpkg --get-selections | grep -r google
+   48  dpkg --get-selections xargs grep -r google
+   49  clear
+   50  dpkg -l
+   51  dpkg -l | grep -i google
+   52  dpkg -r  google-talkplugin
+   53  sudo dpkg -r  google-talkplugin
+   54  sudo dpkg -r  libaccount-plugin-google
+   55  exit
+   56  ls
+   57  subl .
+   58  git status
+   59  git branch
+   60  ls
+   61  cd orama/
+   62  ls
+   63  cd minha_conta/
+   64  git branch
+   65  git log
+   66  exit
+   67  ls
+   68  cd Downloads/
+   69  ls
+   70  sudo dpkg -i sublime-text_build-3114_amd64.deb 
+   71  ls
+   72  sublime
+   73  sbl
+   74  subl
+   75  ls
+   76  sudo dpkg -i slack-desktop-2.0.6-amd64.deb 
+   77  sudo dpkg -i slack-desktop-2.0.6-amd64.deb
+   78  sudo dpkg -i slack-desktop-2.0.6-amd64.deb --verbose
+   79  sudo dpkg -i slack-desktop-2.0.6-amd64.deb -v
+   80  ls
+   81  unzip dumpclean_05042016.zip 
+   82  ls
+   83  mysql -u root -proot
+   84  ls
+   85  mysql -u root -proot oramadb < dumpclean_05042016.sql 
+   86  clear
+   87  ls
+   88  virtualenv
+   89  apt-get install virtualenvwrapper
+   90  sudo apt-get install virtualenvwrapper
+   91  workon
+   92  virtualenvwrapper
+   93  env
+   94  virtualenvwrapper
+   95  cat ~/.bashrc
+   96  source ~/.bashrc
+   97  workon
+   98  workon --help
+   99  subl ~/.bashrc
+  100  ls
+  101  workon
+  102  workon --help
+  103  lsvirtualenv -b
+  104  workon -h
+  105  source ~/.bashrc
+  106  workon
+  107  echo $HOME
+  108  source ~/.bashrc
+  109  workon
+  110  sudo apt-get uninstall virtualenvwrapper
+  111  sudo apt-get remove virtualenvwrapper
+  112  sudo pip install virtualenvwrapper
+  113  export WORKON_HOME=$HOME/env
+  114  export PROJECT_HOME=$HOME/Devel
+  115  source /usr/local/bin/virtualenvwrapper.sh
+  116  workon
+  117  subl ~/.bashrc
+  118  cd /etc
+  119  ls
+  120  subl my.cnf
+  121  echo $MYSQL_HOME/my.cnf
+  122  mysqld --help --verbose
+  123  ls
+  124  mysqld --help --verbose > foo.txt
+  125  sudo mysqld --help --verbose > foo.txt
+  126  cd mysql/
+  127  ls
+  128  subl .
+  129  ls
+  130  cd ~
+  131  exit
+  132  mysql
+  133  ls
+  134  workon
+  135  workon --help
+  136  ls
+  137  mysql -u root -proot
+  138  git status
+  139  exit
+  140  git
+  141  exit
+  142  git
+  143  ls
+  144  cd orama/
+  145  ls
+  146  cd minha_conta/
+  147  ls
+  148  cd orama_web/
+  149  ls
+  150  cd webapps/
+  151  ls
+  152  cd webapp/
+  153  ls
+  154  cd ..
+  155  ls
+  156  git diff README.md
+  157  git log
+  158  git diff ls
+  159  ls
+  160  cd ..
+  161  ls
+  162  cd webapps/
+  163  ls
+  164  cd webapp/
+  165  ls
+  166  git diff Gruntfile.js
+  167  exit
+  168  git status
+  169  ls
+  170  git status
+  171  exit
+  172  ls
+  173  clear
+  174  mysql
+  175  sudo dpkg-reconfigure keyboard-configuration
+  176  git
+  177  sudo apt-get install gitA
+  178  apt-get build-dep gitAAA
+  179  sudo apt-get build-dep git
+  180  apt-get --help
+  181  sudo apt-get build-dep git
+  182  sudo apt-get git
+  183  sudo apt-get install git
+  184  sudo apt-get build-dep git
+  185  ]]]]
+  186  ls
+  187  git
+  188  sudo apt install git
+  189  sudo apt-get install git
+  190  sudo su
+  191  sudo apt-get -y install git
+  192  sudo apt-get -y install git-core
+  193  apt-get install git-core
+  194  sudo apt-get install git-core
+  195  sudo apt-get -y install git-core
+  196  git search
+  197  sudo apt install git
+  198  sudo apt-get update
+  199  git
+  200  apt-get install git
+  201  sudo apt-get install git
+  202  apt-get install openvpn
+  203  sudo apt-get install openvpn
+  204  ls
+  205  cd Downloads/
+  206  ls
+  207  openvpn --confing client.ovpn 
+  208  openvpn --config client.ovpn 
+  209  sudo openvpn --config client.ovpn 
+  210  openvpn --config client.ovpn 
+  211  sudo openvpn --config client.ovpn 
+  212  exit
+  213  ls
+  214  subl ~/.bashrc
+  215  subl /etc/bash_completion.d/virtualenvwrapper
+  216  ls
+  217  cd orama/
+  218  cd minha_conta/
+  219  ls
+  220  cd orama_web/
+  221  ls
+  222  cd webapps/
+  223  ls
+  224  cd webapp/
+  225  ls
+  226  protractor protractor.conf.js
+  227  git status
+  228  git add -A
+  229  git diff --cached
+  230  git diff --cached | grep -i password
+  231  q
+  232  ls
+  233  git status
+  234  git commit -m "changes on README.md and confs"
+  235  git config --global user.email "aj07mm@hotmail.com"
+  236  git config --global user.name "aj07mm" 
+  237  git config user.email "julio.marins@developers.orama.com.br" 
+  238  git config user.name "Julio Marins" 
+  239  git status
+  240  git log
+  241  git commit
+  242  git log
+  243  lsb_release --help
+  244  lsb_release --all
+  245  ls
+  246  clear
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd ..
+  251  sl
+  252  cd ls
+  253  ls
+  254  cd ..
+  255  ls
+  256  subl README.md 
+  257  git status
+  258  git add -A
+  259  git commit -m "more lines on README" 
+  260  cd ..
+  261  cd minha_conta/
+  262  ls
+  263  subl .
+  264  ls
+  265  git status
+  266  git add -A
+  267  git commit --amend
+  268  git log
+  269  subl .
+  270  ls
+  271  cd orama_web/
+  272  ls
+  273  cd webapps/
+  274  ls
+  275  subl .
+  276  ls
+  277  grunt karma
+  278  ls
+  279  exit
+  280  webdriver-manager update
+  281  sudo webdriver-manager update
+  282  webdriver-manager start
+  283  ls
+  284  webdriver-manager update
+  285  webdriver-manager start
+  286  pkill selenium
+  287  webdriver-manager start
+  288  sudo add-apt-repository ppa:webupd8team/java
+  289  sudo apt-get update
+  290  sudo apt-get install oracle-java7-installer
+  291  ls
+  292  webdriver-manager start
+  293  exit
+  294  cd Pictures/
+  295  ls
+  296  exit
+  297  ls
+  298  cd orama/minha_conta/
+  299  ls
+  300  cd orama_web/
+  301  ls
+  302  cd webapps/
+  303  ls
+  304  cd webapp/
+  305  ls
+  306  grunt karma
+  307  ls
+  308  grunt
+  309  grunt karma
+  310  npm install --save phantomjs-prebuild
+  311  npm install --save phantomjs-prebuilt
+  312  grunt karma
+  313  clear
+  314  grunt karma
+  315  git status
+  316  git diff
+  317  git add -A
+  318  git commit -m "testing get for unexistent child models"
+  319  clear
+  320  grunt karma
+  321  git add -A
+  322  git commit -m "testing default-service getAll"
+  323  git push origin webapp_registration
+  324  grunt karma
+  325  ls
+  326  grunt karma
+  327  git status
+  328  git add -A
+  329  git commit -m "testing defaultService query"
+  330  git push origin webapp_registration
+  331  lsof
+  332  ls
+  333  clear
+  334  dpkg -l
+  335  grep --help
+  336  ls
+  337  grep a package.json 
+  338  grep key package.json 
+  339  clear
+  340  ls
+  341  npm install
+  342  git status
+  343  git diff
+  344  git reset --hard HEAD
+  345  ls
+  346  rm -rf node_modules/
+  347  npm install
+  348  ls
+  349  git status
+  350  git add -A
+  351  git commit -m "browser requirements on README" 
+  352  exit
+  353  cd Downloads/
+  354  ls
+  355  dpkg -i google-chrome-stable_current_amd64.deb 
+  356  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+  357  sudo apt-get install libappindicator1
+  358  sudo apt-get build-dep libappindicator1
+  359  apt-get --help
+  360  sudo apt-get update
+  361  sudo apt-get update -f
+  362  sudo apt-get update sudo apt-get install libgconf2-4 libnss3-1d libxss1
+  363  sudo apt-get install libgconf2-4 libnss3-1d libxss1
+  364  sudo apt-get -f install
+  365  ls
+  366  dpkg -i google-chrome-stable_current_amd64.deb
+  367  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  368  chrome
+  369  google-chrome
+  370  ls
+  371  exit
+  372  ls
+  373  cd orama/
+  374  ls
+  375  cd minha_conta/
+  376  ls
+  377  sudo apt-get install virtualenv
+  378  cd ~
+  379  ls
+  380  mkdir env
+  381  cd env
+  382  virtualenv orama
+  383  ls
+  384  . orama/bin/activate
+  385  ls
+  386  cd ..
+  387  ls
+  388  cd orama/
+  389  ls
+  390  cd minha_conta/
+  391  ls
+  392  pi
+  393  pip --versoin
+  394  pip --version
+  395  ls
+  396  pip install -r requirements.txt 
+  397  sudo apt-get install mysql-server
+  398  ls
+  399  pip install -r requirements.txt 
+  400  pip install --uprade setuptools
+  401  sudo pip install --upgrade setuptools
+  402  ls
+  403  pip install --upgrade pipi
+  404  pip install --upgrade pip
+  405  ls
+  406  pip install -r requirements
+  407  pip install -r requirements.txt 
+  408  subl .
+  409  ls
+  410  git branch
+  411  git checkout webapp_registration
+  412  git pull origin webapp_registration
+  413  ls
+  414  python manage.py migrate
+  415  pip install -r requirements.txt 
+  416  sudo apt-get install libmysqlclient-dev
+  417  ls
+  418  sl
+  419  pip install -r requirements.txt 
+  420  ls
+  421  git log
+  422  ls
+  423  pip install -r requirements.txt 
+  424  ls
+  425  python manage.py runserver 0.0.0.0:8000
+  426  cd orama_web/
+  427  ls
+  428  cd notifications/
+  429  ls
+  430  cp config_sample.py local.py
+  431  ls
+  432  cd ..
+  433  ls
+  434  cd settings/
+  435  ls
+  436  git status
+  437  git reset ../notifications/local.py
+  438  ls
+  439  git status
+  440  git reset --hard ../notifications/local.py
+  441  ls
+  442  git reset ../notifications/local.py
+  443  ls
+  444  git status
+  445  git rm ../notifications/local.py 
+  446  ls
+  447  git status
+  448  ../notifications/local.py
+  449  sudo rm ../notifications/local.py
+  450  ls
+  451  git status
+  452  ls
+  453  cd ..
+  454  ls
+  455  cd ..
+  456  ls
+  457  find . -iname config_sample.py
+  458  ls
+  459  cd orama_web/
+  460  ls
+  461  cd ..
+  462  cp orama_web/notifications/config_sample.py  orama_web/settings/local.py
+  463  ls
+  464  cd orama_web/settings/
+  465  ls
+  466  cd ..
+  467  ls
+  468  cd ..
+  469  ls
+  470  python manage.py runserver 0.0.0.0:8000
+  471  git status
+  472  cd ..
+  473  ls
+  474  git status
+  475  f -h
+  476  df -h
+  477  python manage.py runserver 0.0.0.0:8000
+  478  ls
+  479  cd minha_conta/
+  480  python manage.py runserver 0.0.0.0:8000
+  481  ls
+  482  find . -ianme config_local*
+  483  find . -iname config_local*
+  484  ls
+  485  cd no
+  486  ls
+  487  cd orama_web/
+  488  ls
+  489  cd notifications/
+  490  ls
+  491  cp config_sample.py config_local.py
+  492  ls
+  493  cd ..
+  494  ls
+  495  cd ..
+  496  ls
+  497  python manage.py runserver 0.0.0.0:8000
+  498  ls
+  499  pip install -r requirements.txt
+  500  python manage.py runserver 0.0.0.0:8000
+  501  ls
+  502  python manage.py migrate
+  503  mysql -u root -proot
+  504  mysql
+  505  python manage.py runserver 0.0.0.0:8000
+  506  python manage.py migrate
+  507  ls
+  508  python manage.py runserver 0.0.0.0:8000
+  509  exit
+  510  ls
+  511  cd orama/
+  512  ls
+  513  cd minha_conta/
+  514  ls
+  515  cd orama_web/
+  516  ls
+  517  cd webapps/
+  518  ls
+  519  cd webapp/
+  520  ls
+  521  npm install
+  522  ls
+  523  sudo apt-get install npm
+  524  ls
+  525  clear
+  526  npm install
+  527  clear
+  528  ls
+  529  grunt
+  530  npm install grunt
+  531  npm install grunt -g
+  532  sudo npm install grunt -g
+  533  ls
+  534  grunt
+  535  ls
+  536  grunt
+  537  ls
+  538  node
+  539  grunt 
+  540  sudo apt-get install ruby
+  541  ls
+  542  grunt
+  543  ls
+  544  ruby
+  545  gem
+  546  gem install sass
+  547  grunt
+  548  ruby --help
+  549  ruby -v
+  550  apt-get update
+  551  sudo 
+  552  sudo apt-get update
+  553  ls
+  554  clear
+  555  ls
+  556  sass
+  557  sudo apt-get install ruby-sass
+  558  ls
+  559  grunt
+  560  ls
+  561  grunt karma
+  562  ls
+  563  history
+  564  ls
+  565  grunt mock
+  566  pip install jrnl
+  567  jrnl aj07mm@aj07mm-ThinkPad-X220:~/Downloads$ sudo dpkg -r  libaccount-plugin-google
+  568  dpkg: dependency problems prevent removal of libaccount-plugin-google:
+  569  dpkg: error processing package libaccount-plugin-google (--remove):
+  570  ---
+  571  dpkg –l | grep –i python
+  572  clear
+  573  ls
+  574  cd ..
+  575  ls
+  576  subl .
+  577  git status
+  578  git diff
+  579  sudo subl
+  580  subl .
+  581  ls
+  582  grunt watch -f
+  583  ls
+  584  npm install grunt
+  585  ls
+  586  grunt
+  587  ls
+  588  cd webapp/
+  589  ls
+  590  grunt
+  591  ls
+  592  grunt watch -f
+  593  grunt
+  594  ls
+  595  exit
+  596  c
+  597  ls
+  598  cd Do
+  599  cd Downloads/
+  600  ls
+  601  tar -zxv node-v4.4.4-linux-x64.tar.xz 
+  602  tar -zxvf node-v4.4.4-linux-x64.tar.xz 
+  603  ls
+  604  tar xf node-v4.4.4-linux-x64.tar.xz 
+  605  ls
+  606  cd node-v4.4.4-linux-x64/
+  607  ls
+  608  cat README.md 
+  609  uname
+  610  uname --help
+  611  uname --all
+  612  uname -o
+  613  sudo apt-get install nodejs-legacy
+  614  node
+  615  node -v
+  616  ls
+  617  npm --version
+  618  npm install --save latest-version
+  619  npm --version
+  620  ls
+  621  node -v
+  622  ls
+  623  npm install -g protractor
+  624  sudo npm install -g protractor
+  625  ls
+  626  npm install -g json-server
+  627  ls
+  628  sudo npm install -g json-server
+  629  ls
+  630  clear
+  631  ls
+  632  pwd
+  633  cd ~
+  634  ls
+  635  cd orama/
+  636  cd minha_conta/
+  637  ls
+  638  cd orama_web/
+  639  ls
+  640  cd webapps/
+  641  ls
+  642  cd webapp/
+  643  ls
+  644  git pull --recursive
+  645  ls
+  646  cd mock_api/
+  647  ls
+  648  cd ..
+  649  ls
+  650  git submodule foreach git pull origin master
+  651  ls
+  652  git submodule
+  653  git submodule foreach git pull origin master
+  654  git submodule update --recursive
+  655  ls
+  656  cd mock_api/
+  657  ls
+  658  cd ..
+  659  ls
+  660  git pull --recursive-submodules
+  661  git --version
+  662  git submodule update --recursive
+  663  ls
+  664  cd mock_api/
+  665  ls
+  666  cd ..
+  667  ls
+  668  git submodule update --recursive --init
+  669  ls
+  670  json-server --watch mock_api/db.json --port 8888
+  671  exit
+  672  ls
+  673  cd Downloads/
+  674  ls
+  675  openvpn client.ovpn 
+  676  sudo openvpn client.ovpn 
+  677  exit
+  678  ls
+  679  ls
+  680  openvpn https://vpn.orama.com.br/?src=connect
+  681  openvpn https://vpn.orama.com.br
+  682  ls
+  683  cd ..
+  684  ls
+  685  cd ..
+  686  tmux
+  687  sudo apt-get install tmux
+  688  tmux
+  689  google-chrome
+  690  shutdown -r now
+  691  cd ../..
+  692  ls
+  693  cd env
+  694  ls
+  695  cd orama/
+  696  ls
+  697  source ~/.bashrc
+  698  workon
+  699  ls
+  700  exit
+  701  ls
+  702  cd orama_web/
+  703  ls
+  704  cd webapps/
+  705  ls
+  706  cd webapp/
+  707  ls
+  708  grunt watch -f
+  709  grunt
+  710  exit
+  711  ls
+  712  cd ../..
+  713  ls
+  714  subl notes 
+  715  git status
+  716  exitexit
+  717  exit
+  718  ls
+  719  cd orama_web/
+  720  ls
+  721  cd webapps/
+  722  ls
+  723  cd webapp/
+  724  ls
+  725  git status
+  726  git reset --hard HEAD
+  727  ls
+  728  cd .
+  729  cd ..
+  730  ls
+  731  cd ..
+  732  ls
+  733  cd ..
+  734  ls
+  735  cd ..
+  736  ls
+  737  cd .
+  738  cd ..
+  739  ls
+  740  subl notes 
+  741  ls
+  742  dd if=/dev/zero of=file.txt count=1024 bs=1024
+  743  ls
+  744  du file.txt 
+  745  du file.txt  -h
+  746  ls
+  747  cd orama/
+  748  cd minha_conta/
+  749  ls
+  750  cd orama_web/
+  751  ls
+  752  git status
+  753  git diff
+  754  grunt watch -f
+  755  ls
+  756  cd webapps/
+  757  ls
+  758  cd webapp/
+  759  ls
+  760  grunt watch -f
+  761  ls
+  762  gurnt
+  763  grunt
+  764  grunt watch -f
+  765  exit
+  766  google-chrome &
+  767  clear
+  768  sudo dpkg-reconfigure keyboard-configuration
+  769  ls
+  770  subl notes 
+  771  ]
+  772  ls
+  773  cd orama/
+  774  ls
+  775  cd minha_conta/
+  776  ls
+  777  cd we
+  778  ls
+  779  tmux
+  780  shutdown -r now
+  781  cd orama_web/
+  782  git branch
+  783  git push origin webapp_registration
+  784  git status
+  785  git rm   orama_web/webapps/webapp/assets/modules/other.js
+  786  ls
+  787  git status
+  788  git diff
+  789  git add -A
+  790  git commit -m "FileUploader limiting upload to 10mb, need refactor"
+  791  rm orama_web/webapps/webapp/assets/modules/other.js
+  792  git diff
+  793  git add -A
+  794  git commit --amend
+  795  ls
+  796  cd ..
+  797  ls
+  798  subl notes 
+  799  cd Downloads/
+  800  ls
+  801  openvpn client.ovpn 
+  802  sudo openvpn client.ovpn 
+  803  ls
+  804  python manage.py runserver 0.0.0.0:8000
+  805  workon
+  806  workon 
+  807  subl ~/.bashrc 
+  808  workon
+  809  source ~/.bashrc 
+  810  workon
+  811  source ~/.bashrc 
+  812  workon
+  813  workon orama
+  814  python manage.py runserver 0.0.0.0:8000
+  815  lscpi
+  816  lspci
+  817  ls
+  818  lspci
+  819  lspci --help
+  820  man lspci
+  821  subl notes 
+  822  sudo dpkg-reconfigure keyboard-configuration
+  823  lspci | grep -i wifi
+  824  lspci | grep -i network
+  825  ls
+  826  cd orama/
+  827  ls
+  828  cd minha_conta/
+  829  ls
+  830  tmux
+  831  clear
+  832  exit
+  833  ls
+  834  cd ..
+  835  ls
+  836  cd ..
+  837  find . -iname openwebcamtemplate*
+  838  subl .
+  839  cd minha_conta/orama_web/frontend/static/scripts/app/directives/
+  840  ls
+  841  subl .
+  842  ls
+  843  exit
+  844  lsof
+  845  ls
+  846  cd ../..
+  847  ls
+  848  cd ..
+  849  ls
+  850  subl webcam_examples.txt 
+  851  exit
+  852  ls
+  853  cd ~
+  854  ls
+  855  cd Downloads/
+  856  ls
+  857  openvpn client.ovpn 
+  858  ls
+  859  cd ../orama/
+  860  ls
+  861  git status
+  862  cd minha_conta/
+  863  ls
+  864  git status
+  865  git diff
+  866  git add -A
+  867  git commit -m "better way to inject scope threw binding" 
+  868  git pull origin webapp_registration
+  869  git log
+  870  git pull origin webapp_registration
+  871  ls
+  872  cd orama_web/
+  873  ls
+  874  cd webapps/
+  875  ls
+  876  cd webapp/
+  877  git status
+  878  git init
+  879  git status
+  880  git remote add origin git@git.orama.com.br:jmarins/webapp.git
+  881  cd ..
+  882  git status
+  883  echo "source '/usr/local/etc/bash_completion.d/git-prompt.sh'" > ~/.bashrc
+  884  subl ~/.bashrc
+  885  cat ~/.bashrc
+  886  cd ~
+  887  ls
+  888  ls -a
+  889  subl .bash_history
+  890  tail .bash_history
+  891  ls -a
+  892  cat .bashrc
+  893  echo "source '/usr/local/etc/bash_completion.d/git-prompt.sh'" >> ~/.bashrc
+  894  cat ~/.bash
+  895  cat ~/.bashrc 
+  896  cp /etc/skel/.bashrc ~/
+  897  cat ~/.bashrc
+  898  echo "source '/usr/local/etc/bash_completion.d/git-prompt.sh'" >> ~/.bashrc
+  899  ls
+  900  cd ~
+  901  ls
+  902  ls -a
+  903  uname
+  904  lsusb
+  905  user
+  906  whoami
+  907  ls
+  908  cd ~
+  909  ls
+  910  ls -a
+  911  subl .profile
+  912  cat .profile 
+  913  echo "source '/usr/local/etc/bash_completion.d/git-prompt.sh'" >> ~/.profile
+  914  ls
+  915  cat ~/.profile 
+  916  ls
+  917  exit
+  918  ls
+  919  cd webapps/
+  920  ls
+  921  exit
+  922  ls
+  923  git status
+  924  git reset --hard HEAD
+  925  ls
+  926  git submodlue
+  927  git submodule
+  928  git submodule deinit mock_api
+  929  git submodule deinit webapps/webapp/mock_api
+  930  cat .gitsubmodule
+  931  cat .gitmodules
+  932  cat .gitmodule
+  933  ls
+  934  git rm -rf --cached orama_web/webapps/webapp
+  935  git rm -rf orama_web/webapps/webapp
+  936  subl .gitmodules
+  937  cd ..
+  938  ls
+  939  git rm -rf --cached webapp
+  940  git rm -rf --cached orama_web/webapps/webapp #remove o ref apenas
+  941  git rm -rf orama_web/webapps/webapp #n faz nada dps q n tem mais ref
+  942  rm -rf .git/modules/orama_web/webapps/webapp
+  943  git submodule add git@git.orama.com.br:jmarins/webapp.git orama_web/webapps/webapp
+  944  GIT SUBMODULE
+  945  git submodule
+  946  subl .gitmodules
+  947  git reset --hard HEAD
+  948  git status
+  949  ls
+  950  cd orama_web/
+  951  ls
+  952  cd webapps/
+  953  ls
+  954  cd webapp/
+  955  ls
+  956  git remote show origin
+  957  cd ..
+  958  ls
+
+  
+  959  rm -rf webapp/
+  960  cd ..
+  961  git commit -am "removing webapp"
+  962  git status
+  963  clear
+  964  git status
+  965  git branch
+  966  git pull origin webapp_registration
+  967  ls
+  968  cat .gitmodules
+  969  ls
+  970  git push origin webapp_registration
+  971  ls
+  972  find . | grep webapp
+  973  git ls-files | grep webapp
+  974  find . | grep webapp
+  975  git branch
+  976  git submodule add git@git.orama.com.br:jmarins/webapp.git orama_web/webapps/webapp
+  977  git submodule
+
+
+  978  ls
+  979  git status
+  980  git submodule update
+  981  git submodule update --recursive
+  982  git status
+  983  cd orama_web/webapps/webapp/
+  984  ls
+  985  cd ..
+  986  ls
+  987  cd ..
+  988  ls
+  989  git status
+  990  git add -A
+  991  git branch
+  992  git commit -m "webapp as submodule"
+  993  git push origin webapp_registration
+  994  ls
+  995  c dor
+  996  cd orama_web/
+  997  ls
+  998  cd webapps/
+  999  ls
+ 1000  cd webapp/
+ 1001  ls
+ 1002  subl .
+ 1003  git status
+ 1004  git add -A
+ 1005  cd ..
+ 1006  ls
+ 1007  git status
+ 1008  git submodule foreach git commit -am "testing submodule webapp"
+ 1009  git submodule foreach git push origin master
+ 1010  ls
+ 1011  git status
+ 1012  pwd
+ 1013  history
+ 1014  history > ~/submodule_notes
