@@ -37,19 +37,6 @@ nnoremap R "_dd                 " remove default behaviour of copy with dd
 
 set buftype: ""                 " remove buf shit
 
-
-" change cursor on modes for gnome-terminal	>= 3.16
-if has("autocmd")
-  au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
-  au InsertEnter,InsertChange *
-    \ if v:insertmode == 'i' |
-    \   silent execute '!echo -ne "\e[6 q"' | redraw! |
-    \ elseif v:insertmode == 'r' |
-    \   silent execute '!echo -ne "\e[4 q"' | redraw! |
-    \ endif
-  au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
-endif
-
 set noswapfile
 
 syntax on
@@ -67,19 +54,9 @@ nnoremap <silent> <C-l> :nohl<CR><C-l>              " ctrl + l unhighlight
 vnoremap <C-r> "hy:.,$s/<C-r>h//gc<left><left><left>
 
 "set autochdir
-autocmd BufEnter * silent! lcd %:p:h "same as autochdir but with exceptions to run some plugins
-
+"autocmd BufEnter * silent! lcd %:p:h "same as autochdir but with exceptions to run some plugins
 
 set clipboard=Unnamed
 set go+=a
 set paste  "allow pasting on terminal at insert mode"
-
-" speedup controlP scan"
-let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
-if executable('ag')
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-endif
-
-execute pathogen#infect()
-
 
