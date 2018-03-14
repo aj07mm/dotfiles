@@ -1,0 +1,14 @@
+[user]
+	email = julio.marins@esharesinc.com
+	name = Julio Marins
+	signkey = 802CAF7E
+[push]
+	default = current
+[init]
+	templatedir = ~/.git_template
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
+[pull]
+	rebase = true

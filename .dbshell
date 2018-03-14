@@ -1,0 +1,27 @@
+show dbs
+use test_database
+Recipe.objects
+Recipe
+db.recipe
+db.recipe.find({})
+db.recipe.remove({})
+use test_database
+db.recipe.find({})
+use web_database
+db.recipe.find({})
+show databases
+show databases
+pkill mongod
+show databases
+db
+db.foo.find({})
+db.foo.insert({a "1})
+db.foo.insert({a :1})
+db
+db.foo.find({})
+db.foo.find({})
+db.user.find({})
+db.users.find({})
+use hellofresh
+show collections
+db.user.find()

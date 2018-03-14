@@ -1,551 +1,500 @@
-exit
-sudo apt-get install rabbitmq
-sudo apt-get install rabbit-mq
-apt-get search rabbit
-apt-cache search rabbit
-sudo apt-get install rabbitmq-server
-exit
-grep -R 'Resumo' 
-cd ..
-grep -R 'Resumo' 
-cd components/
+clear
 ls
-vim bank-withdrawal-operation-creation.component.html 
-cd ..
-cd ../../../..
+git status
+cd test_api_django/
 ls
-vim .
+mv * ..
+git status
+ls
+ls
+mv project/ ..
+sudo mv project/ ..
+mv project/ .. -f
+mv  -f project/ .. 
+mv -R project/ .. 
+ls
+git status
+mv project/ ..
 cd ..
+ls
+git status
+rm -rf project/
+sl
+ls
+cd test_api_django/
+ls
+mv project/ ..
+ls
+cd ..
+rm -rf test_api_django/
+cd ..
+ls
+cd test-api-django
+ls
+git status
 vim .
-exit
+clear
+ls
+cd project/
+ls
+cd apps/
+ls
+rm -rf restaurants/
+cd ..
+ls
+cd ..
+ls
+ag restaurants
+vim .
+git add -A
+vim .
+git add -A
+git add -A
+vi m.
+clear
+vim .
+clear
+ls
+cd fixtures/
+ls
+clear
+cd ..
+ls
+docker-compose build
+vim .
+clear
+git status
+git branch
+git add -A
+vim .
+vim .
+clear
+git status
+docker-compose build
+docker-compose up
+vim .
+git branch
+git show mini-project-code-with-frontend requirements.txt
+vim requirements.txt 
+clear
+git status
+clear
+git status
+docker-compose up
+vim .
+docker-compose up
+docker-compose build
+docker-compose up
 git status
 git add -A
-git commit -m "fixes on analytics calls"
-git status
-exit
-cd ..
-grep -R Enviar
-cd ..
-grep -R Enviar
-ls
-cd bank-withdrawal-operation/
+git commit -m "blank django ready to use" -n
+git push
 ls
 vim .
-git push origin analytics-financial 
-exit
-ls
-cd ..
-grep -R 'modal__'
-ls
-exit
+clear
 git status
 git add -A
-git diff --cached
-git commit -m "click outside modal at bank-withdrawal-operation when canceling"
-git push origin analytics-financial 
-exit
-cd minha_conta/orama_web/webapps/webapp; vim .
-vim .
-exit
-cd minha_conta/orama_web/webapps/webapp; grunt watch -f
-grunt
-grunt
-grunt watch -f
-grunt
-grunt watch -f
-grunt
-grunt watch -f
-grunt
-grunt watch -f
+git commit -m "emptying fixtures" -n
+git push
+clear
+clear
+clear
+tmux a -t 0
 exit
 ls
-lsusb
-df -h
-df -h --total
-exit
-git branch
+ag "Add shares"
+cd ..
 ls
-grep -R Notas
-git branch
-git checkout bond-negotiation
+ag "Add shares"
+pwd
+cd ..
+ls
+ag "Add shares"
+exit
+exit
+ls
+cd ..
+ls
+ag corporationCanCreateShareClass
+ls
+pwd
+cd ..
+ag corporationCanCreateShareClass
+exit
+ls
+ag hasItems
+cd ..
+ls
+ag hasItems
+pwd
+ls
+cd ..
+ls
+ag hasItems
+exit
 git status
+git reset --hard HEAD
 exit
-git branch
-git log
+ls
+ag hasItems
+pwd
+ls
+cd ..
+ag hasItems
 exit
-git branch
+ls
+cd ..
+ls
+cd ..
+ls
+cd options/
+ls
+ag hasItems
 exit
-git add -A
-git commit -m "fix on others as gray on fund-balance"
-git pull origin master
-exit
-cd minha_conta/orama_web/webapps/webapp; grunt watch -f
-grunt
-grunt
-grunt
-grunt
-git add -A
 git status
-git commit -m "refactor on others as gray at fund-balance"
-git push origin master
-git checkout -b bond-balance
-ls
-ls
-cd assets/
-ls
-cd modules/
-ls
-cd core
-ls
-mv bond-balance bond
-ls
+git reset --hard HEAD
 exit
-cd ..
-cd ..
-cd ..
-cd ..
-ls
-grunt
-grunt
-grunt
-grunt
+git status
+git reset --hard HEAD
 exit
-cd ../../../../
-ls
-cd ..
-ls
-grunt
+git diff
 exit
-ls
-cd ..
-cd ..
-cd ..
-cd ..
-ls
-cd ..
-ls
-grunt
-pkill qbittorrent
-ls
-exit
-ls
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-ls
-grunt
-grunt
-grunt
-exit
-ls
-cd ..
-cd ..
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-grunt
 git status
 git diff
-git add -A
-git commit -m "bond-balance inside bond folder"
-git push origin bond-balance
 exit
+cd /
+ncdu
+tmux ls
+tmux a -t Eshares
+tmux ls
+tmux a -t Eshares
+cd ~
 ls
-exit
+cd test-api-django
 ls
-exit
-mkdir components
+clear
 ls
-mv bond-balance.component* components
-ls
-cd components/
-ls
-exit
-ls
-cp ../bond-balance/* .
-ls
-rm bond-balance*
-ls
-cp ../bond-balance/bond-balance.component.* .
-ls
-rename 's/bond-balance/bond-balance-pie-chart/g' *
-ls
-cd ..
-ls
-cd bond-balance-table
-ls
-cp ../bond-balance/* .
-ls
-rename 's/bond-balance/bond-balance-table/g' *
-ls
-cd ..
-ls
-exot
-exit
-ls
-cp ../bond-balance/bond-balance.component.* .
-ls
-ls'
-ls
-rm bond-balance.component.*
-ls
-cd ..
-ls
-cd bond-balance-pie-chart/
-ls
-cp ../bond-balance/* .
-ls
-rename 's/bond-balance/bond-balance-pie-chart/g' *
-ls
-vim .
-exit
-ls
-cd ..
-ls
-cd bond-balance-table
-cd ..
-ls
-cd bond-balance-dount-
-cd bond-balance-donut-chart/
-ls
-cp ../bond-balance/bond-balance.component.* .
-ls
-ls'
-ls
-rename 's/bond-balance/bond-balance-donut-chart/g' *
-ls
-vim .
-exit
-ls
-cd components
-ls
-mkdir bond-balance
-mkdir bond-balance-table
-mkdir bond-balance-pie-chart
-mkdir bond-balance-donut-chart
-ls
-mv bond-balance.component* bond-balance
-ls
-cd bond-balance
-ls
-cd ..
-vim .
-exit
+clear
+docker-compose up
+docker-compose up
+docker-compose up
+docker-compose up
+docker-compose up
+docker-compose up
+docker-compose up
+docker-compose up
+docker-compose up
+clear
+docker-compose up
 git status
 git add -A
-git commit -m "bond-balance divided into smaller components"
-exit
+git commit -m "login or signup in the same view" -n
+git push
+clear
+cd ~
+ls
+cd test-api-django
+ls
 git status
-git push origin bond-balance
-ls
-cd ..
-ls
-cd ..
-ls
-exit
-oramavpn
-sudo shutdown -r now
-ls
-cd minha_conta
-s
-ls
-cd orama_web/
-ls
-ls
-cd webapps/
-ls
-cd webapp
-ls
-grunt watch -f
-grunt
-grunt
-grunt
-grunt watch -f
-grunt
-grunt watch -f
-workon orama; python minha_conta/manage.py runserver 0.0.0.0:8000
-cd minha_conta/orama_web/webapps/webapp; vim .
-vim
-ls
-cd orama/
-ls
-cd minha_conta
-ls
 git branch
-cd orama_web/webapps/webapp
+git checkout master
+clear
+git checkout master
+clear
+vim .
+clear
+docker ps -a
+docker-compose stup
+docker-compose stop
+psql -d eshares_dev
+clear
+psql
+psql -d postgresql
+psql -d postgresq
+psql -d postgres
+clear
+cd ~
 ls
+cd test-api-django
+ls
+clear
+vim .
+clear
+git status
+git branch
+git checkout master
+vim .
+clear
+git status
+git add -A
+git commit -m "adding template dir" -n
+git puhs
+git push
+ls
+mkdir static_files
+ls
+cd static_files/
+ls
+mkdir css
+ls
+cd css/
+ls
+touch main.css
+vim main.css 
+clear
+cd ..
+ls
+cd ..
+ls
+vim .
+clear
+git status
+git add -A
+git commit -m "adding static_files path" -n
+git push
+clear
+git checkout twyla
+clear
+ls
+clear
+clear
+ls
+git status
+git merge master
+clear
+git status
+git add -A
+git commit -m "loading static_files" -n
+git push
+git checkout master
+clear
+vim .
+clear
+vim .
+clear
+git status
+git add -A
+git commit -m "fix path to static on settings" -n
+git push
+git checkout @{-1}
+clear
+git branch
+git branch
+vim .
+make manage args="shell_plus"
+cd ~
+ls
+cd test-api-django
+ls
+make manage args="shell_plus"
+clear
+ls
+tmux ls
+tmux a -t 3
+cd ~
+ls
+cd test-api-django
+ls
+clear
+tmux new -s twyla
+git status
+git add -A
+git commit -m "getting back some pieces" -n
+git push
+clear
+git branch
+git checkout @{-1}
+git checkout @{-1}
+git checkout @{-1}
+git checkout @{-1}
+git checkout @{-1}
+git checkout develop
+clear
+git pull origin develop
+clear
+clear
+vim .
+clear
+git checkout develop
+clear
+git stash joe
+git stash save joe
+clear
+git stash list
+clear
+git checkout develop
+git pull origin develop
+clear
+vim .
+ls
+python manage.py shell_plus
+vim .
+clear
+git status
+git checkout -b fix-submit-form-on-vesting-modal
+git status
+git add -A
+git commit -m "don't submit on enter at vesting modal" -n
+git push
+git checkout v
+git checkout `pd/form-error`
+git fetch `pd/form-error`
+git fetch pd/form-error
+git checkout pd/form-error
+git pull origin pd/form-error
+git merge fix-submit-form-on-vesting-modal
+git push
+git diff HEAD~1..HEAD
+git status
+git push
+git status
+git log
+gtp
 vim .
 cd ~
 ls
-cd orama/
-bash orama_startup.sh 
-git add -A
-git commit -m "fix on validation at bond-negotiation"
-git push origin bond-negotiation
+cd test-api-django
 ls
-git branch
-cd ..
+clear
 ls
-git checkout master
-git pull origin master
-git branch
 vim .
-git branch
-git fetch
-git fetch origin master
-exit
+clear
+git checkout develop
+clear
+git stash joe
+git stash save joe
+clear
+git stash list
+clear
+git checkout develop
+git pull origin develop
+clear
+vim .
 ls
-cd assets/
-ls
-cd modules/
-ls
-cd core
-ls
-cd bond
-ls
-cd ..
-ls
-cd bond-application
-ls
-cp ../fund-core/fund-application/fund-application.* .
-ls
-rm fund-application.js 
-ls
-ls -1
-ls
-cp ../fund-core/fund-application/models/
-cp ../fund-core/fund-application/models/fund-application.model.js .
-ls
-rename 's/fund-application/bond-application/g' *
-ls -1
-find . -type f
-find . -type f -exec sed -i 's/fund-application/bond-application/g' *
-find . -type f xargs sed -i 's/fund-application/bond-application/g' 
-find . -type f | xargs sed -i 's/fund-application/bond-application/g' 
+python manage.py shell_plus
+vim .
+clear
 git status
-git diff
-vim .
-find . -type f | xargs sed -i 's/FundApplication/BondApplication/g' 
-find . -type f | xargs sed -i 's/fundApplication/bondApplication/g' 
-exit
-ls
-cp ../fund-core/fund-application/models/fund-application-status.model.js .
-ls
-rename 's/fund-application/bond-application/g' *
-ls
-find . -type f | xargs sed -i 's/FundApplication/BondApplication/g' *
-find . -type f | xargs sed -i 's/FundApplication/BondApplication/g'
-find . -type f | xargs sed -i 's/fundApplication/bondApplication/g'
-vim bond-application-status.model.js 
-exit
-cd ../../../../../
-ls
-cd ..
-git status
-git pull origin webapp_portal
-git log
-git pull origin webapp_portal
-git reset --hard HEAD
-git pull origin webapp_portal
-ls
-cd orama_web/webapps/webapp
-ls
-vim .
-exit
+git checkout -b fix-submit-form-on-vesting-modal
 git status
 git add -A
-git commit -m "bond-application files and bond-balance.component structure"
-git push origin bond-balance
-exit
-oramavpn
-curl http://localhost:8000/rest-api/bond
-exit
+git commit -m "don't submit on enter at vesting modal" -n
+git push
+git checkout v
+git checkout `pd/form-error`
+git fetch `pd/form-error`
+git fetch pd/form-error
+git checkout pd/form-error
+git pull origin pd/form-error
+git merge fix-submit-form-on-vesting-modal
+git push
+git diff HEAD~1..HEAD
 git status
-cd ..
-exit
-git push origin bond-balance
-exit
+git push
+git status
 git log
-oramavpn
-exit
-cd ..
-cd assets/
+gtp
+vim .
+cd ~
 ls
-grep -R 'LodashMix'
+cd test-api-django
 ls
-cd modules/core/fund-core/fund-balance/components/fund-balance-donut-chart/
+clear
 ls
 vim .
-exit
+clear
+git checkout develop
+clear
+git stash joe
+git stash save joe
+clear
+git stash list
+clear
+git checkout develop
+git pull origin develop
+clear
+vim .
+ls
+python manage.py shell_plus
+vim .
+clear
+git status
+git checkout -b fix-submit-form-on-vesting-modal
+git status
 git add -A
-git commit -m "bondIssuer and displaying userVirtualAccount at tableData on bond-balance"
-git commit --amend
-exit
-git push origin bond-balance
-cd ../../../../../..
-ls
-cd ..
-git branch
-exit
-notes
-ls
-cd ..
-ls
-notes
-ls
-ls -1
-ls
-vim todo.txt 
-ls
-cd orama/
-ls
-vim orama_docs.txt 
-ls
-cd .
-cd ..
-ls
-cd Do
-cd Documents/
-ls
-cd ..
-notes
-ls
-cd orama/
-ls
-cd minha_conta
-ls
+git commit -m "don't submit on enter at vesting modal" -n
+git push
+git checkout v
+git checkout `pd/form-error`
+git fetch `pd/form-error`
+git fetch pd/form-error
+git checkout pd/form-error
+git pull origin pd/form-error
+git merge fix-submit-form-on-vesting-modal
+git push
+git diff HEAD~1..HEAD
 git status
-ls
-exit
-cd minha_conta/orama_web/webapps/webapp; vim .
-exit
-cd ..
-ls
-cd Downloads/
-ls
-tar -zxvf Popcorn-Time-linux64.tar.gz 
-tar -zxvf Popcorn-Time-linux64.tar.gz  popcorn
-ls
-gnome-open Popcorn-Time
-ls
-gnome-open .
-exit
-vim .
-sudo shutdown -r now
-ls
-cd orama/
-bash orama_startup.sh 
-cd minha_conta/orama_web/webapps/webapp; grunt watch -f
-ls
-grunt watch -f
-workon orama; python minha_conta/manage.py runserver 0.0.0.0:8000
-ls
-cd minha_conta
-ls
+git push
 git status
-git branch
-git status
-git pull origin webapp_portal
 git log
-python manage.py runserver 0.0.0.0:8000
-cd ..
-grep -R 'issuer'
-cd ..
-grep -R 'issuer'
-grep -R issuer
+gtp
+vim .
+cd ~
 ls
-cd core
+cd test-api-django
 ls
-cd bond
+clear
 ls
-exit
-cd ..
-grep -r 'getBondList'
-grep -r 'issuer'
-exit
-cd ..
-grep -r 'issuer'
-exit
-cd ..
-grep -r issuer
-exit
-cd ..
-grep -R BondModel
-exit
-workon orama; python minha_conta/manage.py runserver 0.0.0.0:8000
-cd ..
+vim .
+clear
+git checkout develop
+clear
+git stash joe
+git stash save joe
+clear
+git stash list
+clear
+git checkout develop
+git pull origin develop
+clear
+vim .
 ls
- cd Downloads/
+python manage.py shell_plus
+vim .
+clear
+git status
+git checkout -b fix-submit-form-on-vesting-modal
+git status
+git add -A
+git commit -m "don't submit on enter at vesting modal" -n
+git push
+git checkout v
+git checkout `pd/form-error`
+git fetch `pd/form-error`
+git fetch pd/form-error
+git checkout pd/form-error
+git pull origin pd/form-error
+git merge fix-submit-form-on-vesting-modal
+git push
+git diff HEAD~1..HEAD
+git status
+git push
+git status
+git log
+gtp
+vim .
+cd ~
 ls
-cd Notting\ Hill\ \(1999\)/
+cd test-api-django
 ls
-vlc Notting.Hill.1999.720p.BrRip.x264.BOKUTOX.YIFY.mp4 
-totem Notting.Hill.1999.720p.BrRip.x264.BOKUTOX.YIFY.mp4 
-apt-get install vlc
-sudo apt-get install vlc
+clear
 ls
-vlc Notting.Hill.1999.720p.BrRip.x264.BOKUTOX.YIFY.m'
-vlc Notting.Hill.1999.720p.BrRip.x264.BOKUTOX.YIFY.mp4 
-exit
-cd minha_conta/orama_web/webapps/webapp; grunt watch -f
-grunt
-grunt watch -f
-exit
-cd minha_conta/orama_web/webapps/webapp; vim .
-exit
-cd orama/
+vim .
+vim .
+cd ~
 ls
-bash orama_s
-bash orama_startup.sh 
-cd ..
-cd Downloads/
+cd test-api-django
 ls
-cd Krishna\ Das-Discography\ \[320kbps\]/
-ls
-totem .
-nautilus .
-sudo shutdown -r now
-cd ../Downloads/
-ls
-npm install winamp
-apt-get install winamp
-sudo apt-get install winamp
-sudo apt-get install cmus
-cmus .
-ls
-cmus --listen Live\ on\ Earth/
-ls
-cmus .
-cmus-tutorial
-cmus --help
-ls
-cd Live\ on\ Earth/
-ls
-cmus .
-ls
-cd Krishna\ Das\ -\ Live\ on\ Earth\ CD\ 1/
-ls
-cmus .
-cmus
-cd ..
-cd Krishna\ Das-Discography\ \[320kbps\]/
-ls
-cmus .
-xkill
-exit
-cd Dw
-cd Downloads/
-ls
-cd Gamer\ Girls\ Pwned\ And\ Boned\ \(Joanna\ Angel\ -\ Burning\ Angel\ Entertainment\ \)\ \[2016.\,\ DVDRip\]/
-nautilus .
-ls
-vlc cic-gagi.mp4
-xit
-exit
-vim
-exit
+clear
+docker-compose build
+tmux new -s twyla

@@ -1,0 +1,43 @@
+
+export WORKON_HOME=~/.virtualenvs
+
+source /usr/local/bin/virtualenvwrapper.sh
+if [ -f /usr/local/etc/bash_completion ]; then . /usr/local/etc/bash_completion; fi
+export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
+export PATH=~/eshares/eshares-certificates/bin:$PATH
+export PYTHONDONTWRITEBYTECODE=1
+export ESHARES_SKIP_GEVENT=1
+
+
+#GPG
+if [[ -f $HOME/.gpg-agent-info ]]; then
+ source ~/.gpg-agent-info
+fi
+if [[ -S "${GPG_AGENT_INFO%%:*}" ]]; then
+ export GPG_AGENT_INFO
+else
+ eval $( gpg-agent --daemon --write-env-file ~/.gpg-agent-info )
+fi
+export GPG_TTY=$(tty)
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+
+#autojump
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
+caffeinate -t 999999999999 &
+
+# Set the default editor to vim.
+export EDITOR=vim
+
+#keep db
+alias teshares="SETTINGS_SWITCHER='test' coverage run --source="eshares" --include="eshares/*" --omit="eshares/*/migrations/*" manage.py unit_tests -v1 --failfast -k $1"
+#dont keep db
+alias tesharesdb="SETTINGS_SWITCHER='test' coverage run --source="eshares" --include="eshares/*" --omit="eshares/*/migrations/*" manage.py unit_tests -v1 --failfast $1"
+alias diff_unmerged="git diff --name-only --diff-filter=U"
+alias jslint="./node_modules/.bin/eslint --ext .js --ext .jsx --cache --config .eslintrc.js ./assets/"
+alias cde="cd  ~/eshares/eshares-certificates"
