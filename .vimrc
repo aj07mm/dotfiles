@@ -1,5 +1,5 @@
-set nocompatible                " be iMproved
 let mapleader=","               " change the leader to be a comma vs slash
+set nocompatible                " be iMproved
 set laststatus=2                " Always show the statusline
 set encoding=utf-8              " Necessary to show Unicode glyphs
 set hidden                      " makes vim work like every other multiple-file editor
@@ -10,10 +10,8 @@ set wildmenu                    " Menu completion in command mode on <Tab>
 set wildmode=list:longest,full  " <Tab> cycles between all matching choices.
 set ruler                       " show the cursor position all the
 set backspace=indent,eol,start  " Allow backspacing over autoindent, EOL, and BOL
-
 set autoindent                  " always set autoindenting on
 set smartindent                 " use smart indent if there is no indent file
-
 set tabstop=4                   " <tab> inserts 4 spaces
 set shiftwidth=4                " but an indent level is 2 spaces wide.
 set softtabstop=4               " <BS> over an autoindent deletes both spaces.
@@ -21,25 +19,36 @@ set expandtab                   " Use spaces, not tabs, for autoindent/tab key.
 set modifiable                  " set modifiable for argdo replace
 set autowriteall                " changed buffers are automatically saved when required
 set ruler
-
 set shiftround                  " rounds indent to a multiple of shiftwidth
 set matchpairs+=<:>             " show matching <> (html mainly) as well
 set lazyredraw                  " do not redraw while running macros (muchfaster) (LazyRedraw)
 set textwidth=80                " used by gqq or <VISUAL>gq command to format lines PEP8 :D
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:.
+set ff=unix
+
+
+" Removes trailing spaces
+function TrimWhiteSpace()
+  %s/\s*$//
+  ''
+endfunction
+
+autocmd FileWritePre * call TrimWhiteSpace()
+autocmd FileAppendPre * call TrimWhiteSpace()
+autocmd FilterWritePre * call TrimWhiteSpace()
+autocmd BufWritePre * call TrimWhiteSpace()
 
 nnoremap R "_d                  " remove default behaviour of copy with d
 nnoremap R "_dd                 " remove default behaviour of copy with dd
 
 set buftype: ""                 " remove buf shit
-
-set noswapfile
+set noswapfile                  " remove .swp files from being created
 
 set term=builtin_beos-ansi
 filetype plugin indent on       " get current file indentation
 syntax on
 
 set ffs=unix,dos                  " removing 0xD as ^M
-
 set nu                            " Display number of lines
 set hlsearch                      " highlight patterns
 set autoread                      " Automatically refresh changed files
@@ -52,9 +61,9 @@ nnoremap <silent> <C-l> :nohl<CR><C-l>              " ctrl + l unhighlight
 vnoremap <C-r> "hy:.,$s/<C-r>h//gc<left><left><left>
 
 "set autochdir
-autocmd BufEnter * silent! lcd %:p:h "same as autochdir but with exceptions to run some plugins
+" autocmd BufEnter * silent! lcd %:p:h "same as autochdir but with exceptions to run some plugins
 
-set clipboard^=unnamed
+set clipboard^=unnamed,unnamedplus
 " set go+=a
 set paste  "allow pasting on terminal at insert mode"
 
@@ -63,9 +72,8 @@ set paste  "allow pasting on terminal at insert mode"
 nmap <F5> :tabdo windo edit<CR>
 nnoremap <c-p> :GitFiles<cr>
 nnoremap <c-t> :Tags<cr>
-nnoremap <c-a> :Ag <C-r><CR>
-" nnoremap <c-b> :Buffers<cr>
-nnoremap <c-k> :Marks<cr>
+nnoremap <c-a> :Ag<cr>
+nnoremap <c-b> :Buffers<cr>
 
 execute pathogen#infect()
 
@@ -74,10 +82,10 @@ set textwidth=79
 set colorcolumn=+1
 highlight ColorColumn term=reverse cterm=reverse gui=reverse
 
-set makeprg=python\ %
+set makeprg=python3\ %
 
 " removing whitespaces on :w
-autocmd BufWritePre * %s/\s\+$//e
+" autocmd BufWritePre * %s/\s\+$//e " trying to remove for performance purposes
 
 " skipping backpup tmp vim
 set backupskip=/tmp/*,/private/tmp/*"
@@ -94,10 +102,13 @@ set t_Co=256
 let g:ag_working_path_mode="r"
 
 "Ag word under the cursor
-noremap <leader>a :Ag! -Q <C-r>=expand('<cword>')<CR>
-" noremap <leader>A :Ag  <C-r><CR>
-
+noremap <leader>a :Ag! <C-r>=expand('<cword>')<CR>
+" format SQL text
 noremap <leader>s :%!sqlformat --reindent --keywords upper --identifiers lower -<CR>
+" format JSON
+noremap <leader>j :%!python -m json.tool<CR>
+
+
 
 " reload all opened files pressing F5
 nmap <F5> :tabdo windo edit<CR>
@@ -127,6 +138,8 @@ nmap <F5> :tabdo windo edit<CR>
 "     let g:syntastic_javascript_eslint_exec = local_eslint
 " endif
 
+autocmd BufNewFile  *.py      0r ~/.vim/templates/skeleton.py
+
 " ----------------------------------------------------------------
 
 " STATUSLINE
@@ -143,7 +156,7 @@ nmap <F5> :tabdo windo edit<CR>
 " set statusline +=%2*0x%04B\ %*          "character under cursor
 
 " dunno what laststatus does :/
-set laststatus=2
+" set laststatus=2
 
 "These are to cancel the default behavior of d, D, c, C
 "  to put the text they delete in the default register.
@@ -169,15 +182,35 @@ set laststatus=2
 " zr - reduces auto fold depth
 
 colorscheme badwolf
+set term=screen-256color
+
+" ---- FZF ----
 
 " If installed using git
 set rtp+=~/.fzf
 
 " If installed using Homebrew
-set rtp+=/usr/local/opt/fzf
+" set rtp+=/usr/local/opt/fzf
 
-noremap <F3> :Autoformat<CR>
-let g:formatdef_sql = '"sqlformat --reindent --keywords upper - identifiers lower -"'
-let g:formatters_sql = ['sql']
+" -------------
 
-let g:netrw_localrmdir="rm -r"
+" noremap <F3> :Autoformat<CR>
+" let g:formatdef_sql = '"sqlformat --reindent --keywords upper - identifiers lower -"'
+" let g:formatters_sql = ['sql']
+" let g:netrw_localrmdir="rm -r"
+
+" ctags
+set tags=tags
+
+
+let ropevim_vim_completion=1
+let ropevim_extended_complete=1
+" let g:netrw_liststyle=3
+" let g:netrw_keepdir=0
+
+nnoremap <silent><leader>h :ArgWrap<CR>
+if has("autocmd")
+  augroup templates
+    autocmd BufNewFile *.sh 0r ~/.vim/templates/skeleton.sh
+  augroup END
+endif
